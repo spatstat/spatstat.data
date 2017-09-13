@@ -1,20 +1,20 @@
 Package: spatstat.data
-Version: 1.0-0
-Date: 2017-09-08
+Version: 1.0-1
+Date: 2017-09-13
 Title: Datasets for 'spatstat'
 Authors@R: c(person("Adrian", "Baddeley", 
                     role = c("aut", "cre"),
        	            email = "Adrian.Baddeley@curtin.edu.au"),
 	     person("Rolf", "Turner", 
                     role = "aut",
- 	            email="r.turner@auckland.az.nz"),
+ 	            email="r.turner@auckland.ac.nz"),
 	     person("Ege",   "Rubak", 
                     role = "aut",
 		    email = "rubak@math.aau.dk"))
 Maintainer: Adrian Baddeley <Adrian.Baddeley@curtin.edu.au>
 Depends: R (>= 3.3.0)
 Suggests: spatstat
-Description: Datasets for the 'spatstat' package.
+Description: Contains all the datasets for the 'spatstat' package.
 License: GPL (>= 2)
 URL: http://www.spatstat.org
 LazyData: true
