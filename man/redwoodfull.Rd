@@ -11,7 +11,7 @@
   They were described and analysed by Strauss (1975).
   This is the ``\bold{full}'' dataset; most writers have
   analysed a subset extracted by Ripley (1977)
-  which is available as \code{\link{redwood}}.
+  which is available as \code{\link[spatstat.data]{redwood}}.
  
   Strauss (1975) divided the sampling region into two subregions I and II
   demarcated by a diagonal line.  The spatial pattern
@@ -49,7 +49,7 @@
   and is the dataset usually known as
   ``the redwood data'' in the spatial statistics literature.
   The exact dataset used by Ripley is supplied in the \pkg{spatstat}
-  library as \code{\link{redwood}}.
+  library as \code{\link[spatstat.data]{redwood}}.
 
   The approximate position of the square chosen by Ripley
   within the \code{redwoodfull} pattern
@@ -90,7 +90,7 @@
   Western Australia, 2002.
 }
 \seealso{
-  \code{\link{redwood}}
+  \code{\link[spatstat.data]{redwood}}
 }
 \references{
   Diggle, P.J. (1983)

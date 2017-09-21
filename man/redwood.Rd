@@ -50,7 +50,7 @@
   and from Peter Diggle's website.
 }
 \seealso{
-  \code{\link{redwoodfull}}
+  \code{\link[spatstat.data]{redwoodfull}}
 }
 \references{
   Diggle, P.J. (1983)

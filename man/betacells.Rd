@@ -34,7 +34,7 @@
 }
 \section{Notes}{
   This is a new, corrected version of the old dataset
-  \code{\link{ganglia}}. See below.
+  \code{\link[spatstat.data]{ganglia}}. See below.
   
   These data represent a pattern of beta-type ganglion cells
   in the retina of a cat recorded by W\"assle et al. (1981).
@@ -71,9 +71,11 @@
   was identified by referring to Figures 6(b) and 6(d).
   The area of each soma (in square microns) was also computed.
 
-  Note that this is a corrected version of the \code{\link{ganglia}}  
+  Note that this is a corrected version of
+  the \code{\link[spatstat.data]{ganglia}}  
   dataset provided in earlier versions of \pkg{spatstat}.
-  The earlier data \code{\link{ganglia}} were not faithful to the scale
+  The earlier data \code{\link[spatstat.data]{ganglia}}
+  were not faithful to the scale
   in the original paper and contain some scanning errors.
 }
 \examples{

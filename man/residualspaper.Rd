@@ -8,7 +8,7 @@
   This dataset contains the point patterns
   used as examples in the paper of Baddeley et al (2005).
   [Figure 2 is already available in \pkg{spatstat}
-  as the \code{\link{copper}} dataset.] 
+  as the \code{\link[spatstat.data]{copper}} dataset.] 
 
   R code is also provided to reproduce all
   the Figures displayed in Baddeley et al (2005).
