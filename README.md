@@ -2,7 +2,9 @@
 
 [![CRAN status](http://www.r-pkg.org/badges/version/spatstat.data)](http://cran.r-project.org/web/packages/spatstat.data)
 
-The `spatstat` package is in the process of being split into
+The
+[spatstat](https://github.com/spatstat/spatstat) 
+package is in the process of being split into
 sub-packages. One of these sub-packages is `spatstat.data`,
 which contains all the datasets.
 
