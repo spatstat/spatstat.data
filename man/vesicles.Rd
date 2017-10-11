@@ -83,11 +83,14 @@
 plot(vesicles)
 with(vesicles.extra,
      plot(activezone, add=TRUE, col="red"))
+   }
 
 ## read coordinates of vesicles from raw data, for training purposes
-vf <- system.file("rawdata/vesicles/vesicles.txt", package="spatstat")
+vf <- system.file("rawdata", "vesicles", "vesicles.txt",
+                  package="spatstat.data")
+if(!any(nzchar(vf)))
+   stop("Could not find raw data file vesicles.txt")
 vdf <- read.table(vf, header=TRUE)
-   }
 }
 \keyword{spatial}
 \keyword{datasets}
