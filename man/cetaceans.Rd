@@ -92,7 +92,7 @@
      # Note that inference is *conditional* on the fish and
      # plankton patterns.
      cetPats <- cetaceans.extra$patterns
-     plot(Window(cetPats[[1]],main="The window"))
+     plot(Window(cetPats[[1]]),main="The window")
      plot(cetPats,nrows=3,main="All data")
   }
 }
