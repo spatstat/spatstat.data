@@ -30,12 +30,37 @@ under their jurisdiction for the years 1987 to 2003 inclusive
 
   The object \code{nbw.seg} is a line segment pattern (object of class
   \code{"psp"}) consisting of all the boundary segments of the polygonal window
-  of New Brunswick. The \code{marks} of this pattern are categorical
-  values which classify the segments into three types:
-  \code{"border"} (land border),
-  \code{"coast"} (coast of the mainland)
-  and \code{"island"} (coast of the 5 islands).
-
+  of New Brunswick. The segments are classified into different types of
+  boundary by \code{marks(nbw.seg)}.
+  This is a data frame with three columns:
+  \itemize{
+    \item
+    The column \code{type} describes the
+    physical type of the border. It is a factor with levels
+    \code{"land"} (land border),
+    \code{"river"} (river border),
+    \code{"coast"} (coast of the mainland)
+    and \code{"island"} (coast of the 5 islands).
+    To plot this classification, type \code{plot(nbw.seg)}.
+    \item
+    The column \code{share} specifies the territory which
+    shares the border with New Brunswick. It is a factor with
+    levels \code{"Quebec"}, \code{"NovaScotia"}, \code{"USA"}
+    and \code{"water"}.
+    To plot this classification, type \code{plot(nbw.seg,which.marks="share")}.
+    \item
+    The column \code{full} specifies both the physical type of border
+    and the adjacent territory. It is a factor with levels
+    \code{"coast"},
+    \code{"island"},
+    \code{"landNovaScotia"},
+    \code{"landQuebec"},
+    \code{"riverQuebec"},
+    \code{"landUSA"},
+    \code{"riverUSAnorth"},
+    \code{"riverUSAsouth"}.
+    To plot this classification, type \code{plot(nbw.seg,which.marks="full")}.
+  }
   For conformity with other datasets, \code{nbfires.extra} is a list
   containing all the supplementary data. It contains copies of
   \code{nbw.rect} and \code{nbw.seg}.
