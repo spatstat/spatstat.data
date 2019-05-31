@@ -1,6 +1,6 @@
 Package: spatstat.data
 Version: 1.4-1
-Date: 2019-05-29
+Date: 2019-05-31
 Title: Datasets for 'spatstat'
 Authors@R: c(person("Adrian", "Baddeley", 
                     role = c("aut", "cre"),
@@ -8,10 +8,12 @@ Authors@R: c(person("Adrian", "Baddeley",
 		    comment = c(ORCID="0000-0001-9499-8382")),
 	     person("Rolf", "Turner", 
                     role = "aut",
- 	            email="r.turner@auckland.ac.nz"),
-	     person("Ege",   "Rubak", 
+ 	            email="r.turner@auckland.ac.nz",
+		    comment=c(ORCID="0000-0001-5521-5218")),
+	    person("Ege",   "Rubak", 
                     role = "aut",
-		    email = "rubak@math.aau.dk"))
+		    email = "rubak@math.aau.dk",
+		    comment=c(ORCID="0000-0002-6675-533X")))
 Maintainer: Adrian Baddeley <Adrian.Baddeley@curtin.edu.au>
 Depends: R (>= 3.3.0)
 Suggests: spatstat (>= 1.55-0)
