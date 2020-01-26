@@ -86,7 +86,7 @@
   Figure 4 (a,b,c): \adrian
 }
 \references{
-  Baddeley, A., Turner, R., \ifelse{latex}{\out{M\o ller}}{Moller}, J. and Hazelton, M. (2005)
+  Baddeley, A., Turner, R., \Moller, J. and Hazelton, M. (2005)
   Residual analysis for spatial point processes.
   \emph{Journal of the Royal Statistical Society, Series B}
   \bold{67}, 617--666.

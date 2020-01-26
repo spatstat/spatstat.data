@@ -71,11 +71,11 @@
 \references{
   Kovesi, P. (2014)
   Website \emph{CET Uniform Perceptual Contrast Colour Maps}
-  \url{www.peterkovesi.com/projects/colourmaps/}
+  \url{https://www.peterkovesi.com/projects/colourmaps/}
 
   Kovesi, P. (2015)
-  Designing colour maps with uniform perceptual contrast.
-  Manuscript submitted for publication.
+  Good Colour Maps: How to Design Them.
+  \code{arXiv:1509.03700 [cs.GR]}
 }
 \examples{
   Kovesi

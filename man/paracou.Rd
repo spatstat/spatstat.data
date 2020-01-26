@@ -29,7 +29,7 @@ plot(paracou, cols=2:3, chars=c(16,3))
 }
 \source{
   Data kindly contributed by Olivier Flores.
-  All data belong to CIRAD \url{http://www.cirad.fr}
+  All data belong to CIRAD \url{https://www.cirad.fr}
   and UMR EcoFoG \url{http://www.ecofog.gf} and
   are included in \pkg{spatstat} with permission.
   Original data sources:

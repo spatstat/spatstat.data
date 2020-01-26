@@ -1,9 +1,15 @@
 # spatstat.data NAMESPACE file
 
-import(spatstat.utils)
-
 # Do not edit the following.
 # It is generated automatically.
+
+# from stubs/NAMESPACE:
+
+import(spatstat.utils)
+import(Matrix)
+
+# Automatically from man files:
+
 
 # .................................................. 
 # Automatically-generated list of documented objects 

@@ -62,7 +62,7 @@ plot(as.ppp(chicago), add=TRUE, col="red", chars=c(16,2,22,17,24,15,6))
   ecology and criminology.
   \emph{Scandinavian Journal of Statistics} \bold{39}, 591--617.
 
-  Chicago Weekly News website: \url{www.chicagoweeklynews.com}
+  Chicago Weekly News website: \url{http://www.chicagoweeklynews.com}
 }
 \keyword{datasets}
 \keyword{spatial}
