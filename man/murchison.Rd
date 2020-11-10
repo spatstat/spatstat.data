@@ -24,8 +24,14 @@
   (by geological ``interpretation'') outside the greenstone boundary 
   from information observed in the greenstone region.
 
+  Deposit locations were extracted from the Minedex database
+  (Geological Survey of Western Australia, n.d.) and include deposits of
+  all sizes. The fault geometry and greenstone boundaries
+  were mapped and collated by Watkins and Hickman (1990).
+
   These data were analysed by Foxall and Baddeley (2002) and Brown et al
-  (2002); see also Groves et al (2000), Knox-Robinson and Groves (1997).
+  (2002); see also Groves et al (2000), Knox-Robinson and Groves (1997),
+  Baddeley, Rubak and Turner (2015) and Baddeley (2019).
   The main aim is to predict the intensity of the
   point pattern of gold deposits from the more easily observable fault
   pattern.
@@ -70,6 +76,17 @@
   Watkins and Hickman (1990) and the Geological Survey of Western Australia.
 }
 \references{
+  Baddeley, A. (2018) 
+  A statistical commentary on mineral prospectivity analysis.
+  In Daya Sagar, B.S., Cheng, Q. and Agterberg, F.P. (eds.)
+  \emph{Handbook of Mathematical Geosciences: Fifty Years of {IAMG}}.
+  International Association for Mathematical Geosciences.
+  Chapter 2, pages 25--65.
+
+  Baddeley, A., Rubak, E. and Turner, R. (2015)
+  \emph{Spatial Point Patterns: Methodology and Applications with R}.
+  Chapman and Hall/CRC Press.
+  
   Brown, W.M., Gedeon, T.D., Baddeley, A.J. and Groves, D.I. (2002)
   Bivariate J-function and other graphical
   statistical methods help select the best predictor
@@ -86,6 +103,10 @@
   spatial point process and a random set, with
   geological applications. \emph{Applied Statistics} \bold{51}, 165--182.
 
+  Geological Survey of Western Australia (n.d.)
+  MINEDEX database of Mines and Mineral Deposits.
+  \url{http://dmp.wa.gov.au/Mines-and-mineral-deposits-1502.aspx}.
+  
   Groves, D.I., Goldfarb, R.J., Knox-Robinson, C.M., Ojala, J., Gardoll,
   S, Yun, G.Y. and Holyland, P. (2000)
   Late-kinematic timing of orogenic gold deposits and significance for

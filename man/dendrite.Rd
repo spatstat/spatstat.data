@@ -28,12 +28,11 @@
   Formatted for \code{spatstat} by Dr Aruna Jammalamadaka.
 }
 \references{
-Baddeley, A., Jammalamadaka, A. and Nair, G. (2014)
-Multitype point process analysis of spines on the
-dendrite network of a neuron.
-\emph{Applied Statistics (Journal of the Royal Statistical
- Society, Series C)}, In press.
-\code{doi: 10.1111/rssc.12054}
+  Baddeley, A, Jammalamadaka, A. and Nair, G. (2014)
+  Multitype point process analysis of spines on the
+  dendrite network of a neuron.
+  \emph{Applied Statistics} (Journal of the Royal Statistical
+   Society, Series C), \bold{63}, 673--694. 
 
 Jammalamadaka, A., Banerjee, S., Manjunath, B.S. and Kosik, K. (2013)
 Statistical Analysis of Dendritic Spine Distributions in
