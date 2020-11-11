@@ -31,7 +31,7 @@ plot(gordon)
   Baddeley, A., Turner, R., Mateu, J. and Bevan, A. (2013)
   Hybrids of Gibbs point process models and their implementation.
   \emph{Journal of Statistical Software} \bold{55}:11, 1--43.
-  \url{http://www.jstatsoft.org/v55/i11/}
+  \url{https://www.jstatsoft.org/v55/i11/}
 }
 \keyword{datasets}
 \keyword{spatial}

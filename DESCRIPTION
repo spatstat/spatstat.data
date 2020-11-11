@@ -1,6 +1,6 @@
 Package: spatstat.data
-Version: 1.5-0
-Date: 2020-11-10
+Version: 1.5-1
+Date: 2020-11-11
 Title: Datasets for 'spatstat'
 Authors@R: c(person("Adrian", "Baddeley", 
                     role = c("aut", "cre"),
@@ -20,7 +20,7 @@ Suggests: spatstat (>= 1.55-0)
 Imports: spatstat.utils, Matrix
 Description: Contains all the datasets for the 'spatstat' package.
 License: GPL (>= 2)
-URL: http://www.spatstat.org
+URL: http://spatstat.org
 LazyData: true
 NeedsCompilation: no
 ByteCompile: true
