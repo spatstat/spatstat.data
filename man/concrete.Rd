@@ -64,7 +64,6 @@
      areas <- tile.areas(dtc)
      aa <- areas/1000 # Divide by 1000 to avoid numerical instability
      ## fit a gamma distribution 
-     ##      (equivalent to using MASS::fitdistr)
      mm <- mean(aa)
      vv <- var(aa)
      shape <- mm^2/vv
