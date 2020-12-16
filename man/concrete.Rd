@@ -51,30 +51,33 @@
   processes. \emph{Cement and Concrete Research} \bold{115} 124 -- 132.
 }
 \examples{
-   plot(concrete,chars="+",cols="blue",col="yellow")
-   # The aggregate is in yellow; the cement paste matrix
-   # is in white.
-   if(require(spatstat)) {
+  if(require(spatstat)) {
+     plot(concrete,chars="+",cols="blue",col="yellow")
+     # The aggregate is in yellow; the cement paste matrix is in white.
+
      # Unit of length: use \mu symbol for micron
      unitname(concrete) <- "\u00B5m"
-     # Dirichlet tessellation
-     dtc <- dirichlet(concrete)
-     plot(dtc,ribbon=FALSE, col=sample(rainbow(dtc$n)))
-     # Study Dirichlet tile areas
-     areas <- tile.areas(dtc)
-     aa <- areas/1000 # Divide by 1000 as a precaution against numerical instability
-     # Fit a gamma distribution by the method of moments 
-     mm <- mean(aa)
-     vv <- var(aa)
-     shape <- mm^2/vv
-     rate <- mm/vv
-     rate <- rate/1000 # Adjust for rescaling
-     hist(areas,probability=TRUE,ylim=c(0,7.5e-6),
+
+     if(interactive()) {
+       # Compute the Dirichlet tessellation
+       dtc <- dirichlet(concrete)
+       plot(dtc,ribbon=FALSE, col=sample(rainbow(dtc$n)))
+       # Study Dirichlet tile areas
+       areas <- tile.areas(dtc)
+       aa <- areas/1000 # Divide by 1000 to avoid numerical instability
+       # Fit a gamma distribution by the method of moments 
+       mm <- mean(aa)
+       vv <- var(aa)
+       shape <- mm^2/vv
+       rate <- mm/vv
+       rate <- rate/1000 # Adjust for rescaling
+       hist(areas,probability=TRUE,ylim=c(0,7.5e-6),
           main="Histogram and density estimates for areas",ylab="",xlab="area")
-     lines(density(areas),col="red")
-     curve(dgamma(x,shape=shape,rate=rate),add=TRUE,col="blue")
-     legend("topright",lty=1,col=c("red","blue"),
-            legend=c("non-parametric","gamma fit"),bty="n")
-   }
+       lines(density(areas),col="red")
+       curve(dgamma(x,shape=shape,rate=rate),add=TRUE,col="blue")
+       legend("topright",lty=1,col=c("red","blue"),
+              legend=c("non-parametric","gamma fit"),bty="n")
+     }
+  }
 }
 \keyword{datasets}
