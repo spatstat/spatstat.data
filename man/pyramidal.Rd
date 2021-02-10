@@ -37,7 +37,7 @@
    \bold{86}, 618--625.
 }
 \examples{
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
 pyr <- pyramidal
 pyr$grp <- abbreviate(pyramidal$group, minlength=7)
 plot(pyr, quote(plot(Neurons, pch=16, main=grp)), main="Pyramidal Neurons")

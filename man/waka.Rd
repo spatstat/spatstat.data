@@ -19,7 +19,7 @@
 \usage{data(waka)}
 \examples{
 data(waka)
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
 plot(waka, markscale=0.01)
 title(sub="Tree diameters to scale")
 plot(waka, markscale=0.04)

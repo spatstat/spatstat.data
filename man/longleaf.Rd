@@ -30,13 +30,13 @@
     \code{y} \tab Cartesian \eqn{y}-coordinate of tree \cr
     \code{marks} \tab diameter at breast height, in centimetres.
   }
-  See \code{\link[spatstat]{ppp.object}} for details of the format of a
+  See \code{\link[spatstat.geom]{ppp.object}} for details of the format of a
   point pattern object.
 }
 \usage{data(longleaf)}
 \examples{
     data(longleaf)
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
     plot(longleaf)
     plot(cut(longleaf, breaks=c(0,30,Inf), labels=c("Sapling","Adult")))
   }

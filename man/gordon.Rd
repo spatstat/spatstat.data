@@ -20,7 +20,7 @@
 \usage{data(gordon)}
 \examples{
 data(gordon)
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
 plot(gordon)
   }
 }

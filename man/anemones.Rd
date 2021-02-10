@@ -39,12 +39,12 @@
   representing the point pattern of anemone locations.
   It is a marked point pattern with numeric marks representing
   anemone diameter.
-  See \code{\link[spatstat]{ppp.object}} for details of the format.
+  See \code{\link[spatstat.geom]{ppp.object}} for details of the format.
 }
 \usage{data(anemones)}
 \examples{
   data(anemones)
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
   # plot diameters on same scale as x, y
   plot(anemones, markscale=1)
   }

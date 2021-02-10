@@ -30,11 +30,11 @@
   \describe{
     \item{Points}{a point pattern (object of class \code{"ppp"})
       representing the full point pattern of copper deposits.
-      See \code{\link[spatstat]{ppp.object}} for details of the format.
+      See \code{\link[spatstat.geom]{ppp.object}} for details of the format.
     }
     \item{Lines}{a line segment pattern (object of class \code{"psp"})
       representing the lineaments in the full dataset.
-      See \code{\link[spatstat]{psp.object}} for details of the format.
+      See \code{\link[spatstat.geom]{psp.object}} for details of the format.
     }
     \item{SouthWindow}{the window delineating the southern half of
       the study region. An object of class \code{"owin"}.
@@ -53,7 +53,7 @@
 
   data(copper)
 
-  if(require(spatstat)) {
+  if(require(spatstat.core)) {
 
   # Plot full dataset
 
@@ -64,7 +64,7 @@
   plot(copper$SouthPoints)
   plot(copper$SouthLines, add=TRUE)
 
-  \dontrun{
+  if(interactive()) {
     Z <- distmap(copper$SouthLines)
     plot(Z)
     X <- copper$SouthPoints

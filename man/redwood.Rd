@@ -32,15 +32,15 @@
   canonical example of a clustered point pattern
   (see e.g. Diggle, 1983).
 
-  The original, full redwood dataset is supplied in the \code{spatstat}
-  library as \code{redwoodfull}.
+  The original, full redwood dataset is supplied in the \code{spatstat.data}
+  package as \code{redwoodfull}.
 } 
 \format{
   An object of class \code{"ppp"}
   representing the point pattern of tree locations.
   The window has been rescaled to the unit square.
 
-  See \code{\link[spatstat]{ppp.object}} for details of the format of a
+  See \code{\link[spatstat.geom]{ppp.object}} for details of the format of a
   point pattern object.
 }
 \usage{data(redwood)}

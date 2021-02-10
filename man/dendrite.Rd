@@ -21,7 +21,7 @@
 \usage{data("dendrite")}
 \format{
   Object of class \code{"lpp"}. 
-  See \code{\link[spatstat]{lpp}}.
+  See \code{\link[spatstat.linnet]{lpp}}.
 }
 \source{
   Kosik Lab, UC Santa Barbara (Dr Kenneth Kosik, Dr Sourav Banerjee).
@@ -40,7 +40,7 @@ Rat Hippocampal Cultures.
 \emph{BMC Bioinformatics} \bold{14}, 287.
 }
 \examples{
-  if(require(spatstat)) {
+  if(require(spatstat.linnet)) {
 plot(dendrite,leg.side="bottom", main="", cex=0.75, cols=2:4)
   }
 }

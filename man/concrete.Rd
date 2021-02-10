@@ -17,8 +17,8 @@
 }
 \details{
   The window of the point pattern is a binary mask
-  (window of type \code{"mask"}; see \code{\link[spatstat]{owin}}
-  and \code{\link[spatstat]{as.mask}} for more information
+  (window of type \code{"mask"}; see \code{\link[spatstat.geom]{owin}}
+  and \code{\link[spatstat.geom]{as.mask}} for more information
   about this type of window).
   This window in effect consists of the
   cement paste matrix, or equivalently of the complement (in the
@@ -51,7 +51,7 @@
   processes. \emph{Cement and Concrete Research} \bold{115} 124 -- 132.
 }
 \examples{
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
      plot(concrete,chars="+",cols="blue",col="yellow")
      # The aggregate is in yellow; the cement paste matrix is in white.
 

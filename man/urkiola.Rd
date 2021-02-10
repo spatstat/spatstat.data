@@ -21,7 +21,7 @@
     \item{marks}{factor indicating species of each tree}
   }
   The levels of \code{marks} are \code{birch} and \code{oak}.
-  See \code{\link[spatstat]{ppp.object}}
+  See \code{\link[spatstat.geom]{ppp.object}}
   for details of the format of a ppp object. 
 }
 \source{N.A. Laskurain. Kindly formatted and communicated by M. de la Cruz Rot}

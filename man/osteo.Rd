@@ -16,7 +16,7 @@
 }
 \usage{data(osteo)}
 \format{
-  A \code{\link[spatstat]{hyperframe}} with the following columns:
+  A \code{\link[spatstat.geom]{hyperframe}} with the following columns:
 
   \tabular{ll}{
     \code{id} \tab character string identifier of bone sample \cr
@@ -133,7 +133,7 @@
 }
 \examples{
   data(osteo)
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
   osteo
   if(interactive()) {
     plot(osteo$pts[[1]], main="animal 1, brick 1")

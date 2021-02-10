@@ -9,7 +9,7 @@
 }
 \details{
   The \pkg{spatstat.data} package contains the datasets
-  for the \pkg{spatstat} package.
+  for the \pkg{spatstat} family of packages.
 }
 \section{Licence}{
   This library and its documentation are usable under the terms of the

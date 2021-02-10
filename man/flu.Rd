@@ -11,7 +11,7 @@
 }
 \usage{data(flu)}
 \format{
-  A \code{\link[spatstat]{hyperframe}} with 41 rows and four columns:
+  A \code{\link[spatstat.geom]{hyperframe}} with 41 rows and four columns:
   \describe{
     \item{pattern}{
       List of spatial point patterns
@@ -67,7 +67,7 @@
   between the two proteins which has also been observed biochemically
   and functionally (Rossman et al, 2010).
 
-  The dataset \code{flu} is a \code{\link[spatstat]{hyperframe}}
+  The dataset \code{flu} is a \code{\link[spatstat.geom]{hyperframe}}
   with one row for each membrane sheet. The column named \code{pattern}
   contains the spatial point patterns of gold particle locations,
   with two types of points (either \code{M1} and \code{M2} or
@@ -97,7 +97,7 @@
 }
 \examples{
 data(flu)
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
 flu
 Y <- flu$pattern[10]
 Y <- flu[10, 1, drop=TRUE]

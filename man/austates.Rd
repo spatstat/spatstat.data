@@ -32,7 +32,7 @@
 }
 \examples{
   data(austates)
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
   plot(austates)
   }
 }

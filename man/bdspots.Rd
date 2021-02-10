@@ -81,7 +81,7 @@
 }
 \examples{
 data(bdspots)
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
 plot(bdspots, equal.scales=TRUE)
   }
 }

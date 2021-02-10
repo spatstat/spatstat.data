@@ -15,10 +15,10 @@
 
   Cartesian coordinates are given in decimetres (multiples of 0.1 metre)
   rounded to the nearest decimetre.
-  Type \code{\link[spatstat]{rescale}(swedishpines)} to get an equivalent dataset
+  Type \code{\link[spatstat.geom]{rescale}(swedishpines)} to get an equivalent dataset
   where the coordinates are expressed in metres.
   
-  See \code{\link[spatstat]{ppp.object}} for details of the format of a
+  See \code{\link[spatstat.geom]{ppp.object}} for details of the format of a
   point pattern object.
 }
 \usage{data(swedishpines)}

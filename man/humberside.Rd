@@ -21,7 +21,7 @@
     \tab indicating whether this is a disease case\cr
     \tab or a control.
   }
-  See \code{\link[spatstat]{ppp.object}} for details of the format.
+  See \code{\link[spatstat.geom]{ppp.object}} for details of the format.
 
   The dataset \code{humberside.convex} is an object of the
   same format, representing the same point pattern data,
@@ -29,7 +29,7 @@
 }
 \usage{data(humberside)}
 \examples{
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
    humberside
    summary(humberside)
    plot(humberside)
@@ -60,8 +60,8 @@
   Coordinates are expressed in units of 100 metres, and the resolution is
   100 metres. At this resolution, there are some duplicated points.
   To determine which points are duplicates,
-  use \code{\link[spatstat]{duplicated.ppp}}.
-  To remove the duplication, use \code{\link[spatstat]{unique.ppp}}.
+  use \code{\link[spatstat.geom]{duplicated.ppp}}.
+  To remove the duplication, use \code{\link[spatstat.geom]{unique.ppp}}.
   
   Two versions of the dataset are supplied, both containing the
   same point coordinates, but using different windows.

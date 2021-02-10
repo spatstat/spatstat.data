@@ -19,7 +19,7 @@
 }
 \format{
   The object \code{cetaceans} is a \emph{hyperframe} (see
-  \code{\link[spatstat]{hyperframe}()}) with 9 rows and 4 columns.
+  \code{\link[spatstat.geom]{hyperframe}()}) with 9 rows and 4 columns.
   Each row of this hyperframe represents a replicate survey.
   The columns are \code{whales}, \code{dolphins}, \code{fish}
   and \code{plankton}.
@@ -33,8 +33,8 @@
   It currently contains only one entry, \code{patterns}, which
   contains the same information as \code{cetaceans} in another form.
   This is a list, of class \code{solist}
-  (\dQuote{spatial object list}; see \code{\link[spatstat]{solist}()},
-  \code{\link[spatstat]{as.solist}()}).
+  (\dQuote{spatial object list}; see \code{\link[spatstat.geom]{solist}()},
+  \code{\link[spatstat.geom]{as.solist}()}).
   It is a list of length 9, in which each entry is a marked point
   pattern, representing the result of one survey. 
   Each pattern was obtained by superimposing the
@@ -83,7 +83,7 @@
 }
 
 \examples{
-  if(require(spatstat)) {
+  if(require(spatstat.core)) {
      cet <- cetaceans
      cet$dMplank <- with(cet, distfun(plankton, undef=20))
      cet$dMfish <- with(cet, distfun(fish, undef=20))

@@ -12,7 +12,7 @@
 }
 \usage{data(Kovesi)}
 \format{
-  A \code{\link[spatstat]{hyperframe}} with the following columns:
+  A \code{\link[spatstat.geom]{hyperframe}} with the following columns:
 
   \tabular{ll}{
     \code{linear} \tab Logical: whether the sequence is linear. \cr
@@ -80,7 +80,7 @@
 \examples{
   Kovesi
   LinearBMW <- Kovesi$values[[28]]
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
   plot(colourmap(LinearBMW, range=c(0,1)))
 
   ## The following would be suitable for spatstat.options(image.colfun)

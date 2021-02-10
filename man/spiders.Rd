@@ -61,7 +61,7 @@ The linear network has 156 vertices and a total length of 20.22 metres.
   \emph{Australian Journal of Entomology} \bold{46}, 261--268.
 }
 \examples{
-  if(require(spatstat)) {
+  if(require(spatstat.linnet)) {
 plot(spiders, show.window=FALSE, pch=16)
    }
 }

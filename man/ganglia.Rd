@@ -16,7 +16,7 @@
     \code{marks} \tab factor with levels \code{off} and \code{on} \cr
                  \tab indicating ``off'' and ``on'' cells
   }
-  See \code{\link[spatstat]{ppp.object}} for details of the format.
+  See \code{\link[spatstat.geom]{ppp.object}} for details of the format.
 }
 \usage{data(ganglia)}
 \source{W\"assle et al (1981), data supplied by Marie-Colette van

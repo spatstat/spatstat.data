@@ -7,7 +7,7 @@
 \description{
   This dataset contains the point patterns
   used as examples in the paper of Baddeley et al (2005).
-  [Figure 2 is already available in \pkg{spatstat}
+  [Figure 2 is already available in \pkg{spatstat.data}
   as the \code{\link[spatstat.data]{copper}} dataset.] 
 
   R code is also provided to reproduce all
@@ -57,10 +57,10 @@
 \usage{data(residualspaper)}
 \examples{
 
-\dontrun{
+if(FALSE) {
   data(residualspaper)
   
-  if(require(spatstat)) {
+  if(require(spatstat.core)) {
 
   X <- residualspaper$Fig4a
   summary(X)

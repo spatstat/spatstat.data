@@ -15,7 +15,7 @@
   in a 56 x 38 metre sampling region. Each tree is marked
   with its diameter at breast height. All values are given in metres.
 
-  See \code{\link[spatstat]{ppp.object}} for details of the format of a
+  See \code{\link[spatstat.geom]{ppp.object}} for details of the format of a
   point pattern object. The marks are numeric.
 
   These data have been analysed by Fiksel (1984, 1988),
@@ -25,11 +25,11 @@
 \usage{data(spruces)}
 \source{Stoyan et al (1987). Original source unknown.}
 \examples{
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
      plot(spruces)
      # To reproduce Goulard et al. Figure 3
      # (Goulard et al: "influence zone radius equals 5 * stem diameter")
-     # (spatstat help(plot.ppp): "size of symbol = diameter")
+     # (help(plot.ppp) says: "size of symbol = diameter")
      plot(spruces, maxsize=10*max(spruces$marks))
      plot(unmark(spruces), add=TRUE)
   }

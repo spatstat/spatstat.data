@@ -12,7 +12,7 @@
 }
 \usage{data(mucosa)}
 \format{
-  An object of class \code{"ppp"}, see \code{\link[spatstat]{ppp.object}}.
+  An object of class \code{"ppp"}, see \code{\link[spatstat.geom]{ppp.object}}.
   This is a multitype point pattern with two types of points,
   \code{ECL} and \code{other}.
 }
@@ -48,7 +48,7 @@
   Chapman and Hall/CRC.
 }
 \examples{
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
   plot(mucosa, chars=c(1,3), cols=c("red", "green"))
   plot(mucosa.subwin, add=TRUE, lty=3)
   }

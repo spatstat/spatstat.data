@@ -60,7 +60,7 @@
 \format{
   The dataset \code{redwoodfull} is an object of class \code{"ppp"}
   representing the point pattern of tree locations.
-  See \code{\link[spatstat]{ppp.object}} for details of the format of a
+  See \code{\link[spatstat.geom]{ppp.object}} for details of the format of a
   point pattern object.
   The window has been rescaled to the unit square.
   Its physical size is approximately 128 feet across.
@@ -78,7 +78,7 @@
 \usage{data(redwoodfull)}
 \examples{
        data(redwoodfull)
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
        plot(redwoodfull)
        redwoodfull.extra$plotit()
        # extract the pattern in region II 

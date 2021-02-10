@@ -49,8 +49,8 @@
   }
   Note that the data contain duplicated points (two points at the
   same location). To determine which points are duplicates,
-  use \code{\link[spatstat]{duplicated.ppp}}.
-  To remove the duplication, use \code{\link[spatstat]{unique.ppp}}.
+  use \code{\link[spatstat.geom]{duplicated.ppp}}.
+  To remove the duplication, use \code{\link[spatstat.geom]{unique.ppp}}.
 
   The accompanying dataset \code{gorillas.extra} contains
   spatial covariate information. It is a named list containing
@@ -109,10 +109,10 @@
 \section{Raw Data}{
   For demonstration and training purposes,
   the raw data file for the \code{vegetation} covariate is
-  also provided in the \pkg{spatstat} package installation,
+  also provided in the \pkg{spatstat.data} package installation,
   as the file \code{vegetation.asc} in the folder \code{rawdata/gorillas}.
   Use \code{\link[base]{system.file}} to obtain the file path:
-  \code{system.file("rawdata/gorillas/vegetation.asc", package="spatstat")}.
+  \code{system.file("rawdata/gorillas/vegetation.asc", package="spatstat.data")}.
   This is a text file in the simple ASCII file format of the geospatial
   library \code{GDAL}. The file can be read by the function
   \code{readGDAL} in the \pkg{rgdal} package, or alternatively
@@ -144,7 +144,7 @@
   \bold{26} (6), 793--811.
 }
 \examples{
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
   summary(gorillas)
   plot(gorillas)
   plot(gorillas.extra)

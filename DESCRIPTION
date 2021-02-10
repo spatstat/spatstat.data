@@ -1,7 +1,7 @@
 Package: spatstat.data
-Version: 1.7-0
-Date: 2020-12-16
-Title: Datasets for 'spatstat'
+Version: 2.0-0
+Date: 2021-02-10
+Title: Datasets for 'spatstat' Family
 Authors@R: c(person("Adrian", "Baddeley", 
                     role = c("aut", "cre"),
        	            email = "Adrian.Baddeley@curtin.edu.au",
@@ -13,14 +13,89 @@ Authors@R: c(person("Adrian", "Baddeley",
 	    person("Ege",   "Rubak", 
                     role = "aut",
 		    email = "rubak@math.aau.dk",
-		    comment=c(ORCID="0000-0002-6675-533X")))
+		    comment=c(ORCID="0000-0002-6675-533X")),
+            person("W", "Aherne", role="ctb"),
+            person("Freda", "Alexander", role="ctb"),
+            person("Qi Wei", "Ang", role="ctb"),
+            person("Sourav", "Banerjee", role="ctb"),
+            person("Mark", "Berman", role="ctb"),
+            person("R", "Bernhardt", role="ctb"),
+            person("Thomas", "Berndtsen", role="ctb"),
+            person("Andrew", "Bevan", role="ctb"),
+            person("Jeffrey", "Betts", role="ctb"),
+            person("Ray", "Cartwright", role="ctb"),
+            person("Richard", "Condit", role="ctb"),
+            person("Francis", "Crick", role="ctb"),
+            person("Marcelino", "de la Cruz Rot", role="ctb"),
+            person("Jack", "Cuzick", role="ctb"),
+            person("Peter", "Diggle", role="ctb"),
+            person("Michael", "Drinkwater", role="ctb"),
+            person("Stephen", "Eglen", role="ctb"),
+            person("Robert", "Edwards", role="ctb"),
+            person("AE", "Esler", role="ctb"),
+            person("Gregory", "Evans", role="ctb"),
+            person("Bernard", "Fingleton", role="ctb"),
+            person("Olivier", "Flores", role="ctb"),
+            person("David", "Ford", role="ctb"),
+            person("Robin", "Foster", role="ctb"),
+            person("Janet", "Franklin", role="ctb"),
+            person("Neba", "Funwi-Gabga", role="ctb"),
+            person("DJ", "Gerrard", role="ctb"),
+            person("Andy", "Green", role="ctb"),
+            person("Tim", "Griffin", role="ctb"),
+            person("Ute", "Hahn", role="ctb"),
+            person("RD", "Harkness", role="ctb"),
+            person("Arthur", "Hickman", role="ctb"),
+            person("Stephen", "Hubbell", role="ctb"),
+            person("Austin", "Hughes", role="ctb"),
+            person("Jonathan", "Huntington", role="ctb"),
+            person("MJ", "Hutchings", role="ctb"),
+            person("Valerie", "Isham", role="ctb"),
+            person("Aruna", "Jammalamadaka", role="ctb"),
+            person("Carl", "Knox-Robinson", role="ctb"),
+            person("Mahdieh", "Khanmohammadi", role="ctb"),
+            person("Tero", "Kokkila", role="ctb"),
+            person("Bas", "Kooijman", role="ctb"),
+            person("Kenneth", "Kosik", role="ctb"),
+            person("Peter", "Kovesi", role="ctb"),
+            person("Lily", "Kozmian-Ledward", role="ctb"),
+            person("Robert", "Lamb", role="ctb"),
+            person("NA", "Laskurain", role="ctb"),
+            person("George", "Leser", role="ctb"),
+            person("Marie-Colette", "van Lieshout", role="ctb"),
+            person("AF", "Mark", role="ctb"),
+            person("Jorge", "Mateu", role="ctb"),
+            person("Annikki", "Makela", role="ctb"),
+            person("Enrique", "Miranda", role="ctb"),
+            person("Nicoletta", "Nava", role="ctb"),
+            person("M", "Numata", role="ctb"),
+            person("Matti", "Nummelin", role="ctb"),
+            person("Jens Randel", "Nyengaard", role="ctb"),
+            person("Yosihiko", "Ogata", role="ctb"),
+            person("Antti", "Penttinen", role="ctb"),
+            person("Sandra", "Pereira", role="ctb"),
+            person("Nicolas", "Picard", role="ctb"),
+            person("William", "Platt", role="ctb"),
+            person("Stephen", "Rathbun", role="ctb"),
+            person("Brian", "Ripley", role="ctb"),
+            person("Dietrich", "Stoyan", role="ctb"),
+            person("David", "Strauss", role="ctb"),
+            person("L", "Strand", role="ctb"),
+            person("Masaharu", "Tanemura", role="ctb"),
+            person("Graham", "Upton", role="ctb"),
+            person("Bill", "Venables", role="ctb"),
+            person("Sasha", "Voss", role="ctb"),
+            person("Rasmus", "Waagepetersen", role="ctb"),
+            person("Keith", "Watkins", role="ctb"),
+            person("H", "Wendrock", role="ctb")
+		    )
 Maintainer: Adrian Baddeley <Adrian.Baddeley@curtin.edu.au>
 Depends: R (>= 3.5.0)
-Suggests: spatstat (>= 1.55-0)
 Imports: spatstat.utils, Matrix
-Description: Contains all the datasets for the 'spatstat' package.
+Suggests: spatstat.geom, spatstat.core, spatstat.linnet
+Description: Contains all the datasets for the 'spatstat' family of packages.
 License: GPL (>= 2)
-URL: http://spatstat.org
+URL: http://spatstat.org/
 LazyData: true
 NeedsCompilation: no
 ByteCompile: true

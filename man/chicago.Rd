@@ -28,19 +28,19 @@
 
   The dataset \code{chicago} is an object of class \code{"lpp"}
   representing a point pattern on a linear network.
-  See \code{\link[spatstat]{lpp}} for further information on the format.
+  See \code{\link[spatstat.linnet]{lpp}} for further information on the format.
 
   These data were published and analysed in
   Ang, Baddeley and Nair (2012).
 } 
 \format{
   Object of class \code{"lpp"}. 
-  See \code{\link[spatstat]{lpp}}.
+  See \code{\link[spatstat.linnet]{lpp}}.
 }
 \usage{data(chicago)}
 \examples{
 data(chicago)
-  if(require(spatstat)) {
+  if(require(spatstat.linnet)) {
 plot(chicago)
 plot(as.linnet(chicago), main="Chicago Street Crimes",col="green")
 plot(as.ppp(chicago), add=TRUE, col="red", chars=c(16,2,22,17,24,15,6))

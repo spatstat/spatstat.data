@@ -45,12 +45,12 @@
   Object of class \code{"ppp"} 
   representing the point pattern of sapling locations marked by
   their heights and diameters.
-  See \code{\link[spatstat]{ppp.object}} for details of the format.
+  See \code{\link[spatstat.geom]{ppp.object}} for details of the format.
 }
 \usage{data(finpines)}
 \examples{
     data(finpines)
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
     plot(unmark(finpines), main="Finnish pines: locations")
     plot(finpines, which.marks="height", main="heights")
     plot(finpines, which.marks="diameter", main="diameters")

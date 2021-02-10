@@ -47,7 +47,7 @@
 \section{Raw Data}{
   For demonstration and training purposes,
   the raw data files for this dataset are also
-  provided in the \pkg{spatstat} package installation:
+  provided in the \pkg{spatstat.data} package installation:
   \tabular{ll}{
     \code{vesicles.txt}\tab spatial locations of vesicles \cr
     \code{presynapse.txt}\tab vertices of \code{presynapse} \cr
@@ -57,7 +57,7 @@
     \code{activezone.txt} \tab coordinates of \code{activezone} 
   }
   The files are in the folder \code{rawdata/vesicles} in the
-  \pkg{spatstat} installation directory. The precise location of the
+  \pkg{spatstat.data} installation directory. The precise location of the
   files can be obtained using \code{\link[base]{system.file}}, as shown
   in the examples.  
 }
@@ -79,7 +79,7 @@
   and Health Informatics}, Newport Beach, CA, USA, September 2014.
 }
 \examples{
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
 plot(vesicles)
 with(vesicles.extra,
      plot(activezone, add=TRUE, col="red"))

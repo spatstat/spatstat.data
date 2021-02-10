@@ -18,12 +18,12 @@
 
   Note that the data contain duplicated points (two points at the
   same location). To determine which points are duplicates,
-  use \code{\link[spatstat]{duplicated.ppp}}.
-  To remove the duplication, use \code{\link[spatstat]{unique.ppp}}.
+  use \code{\link[spatstat.geom]{duplicated.ppp}}.
+  To remove the duplication, use \code{\link[spatstat.geom]{unique.ppp}}.
 }
 \usage{data(paracou)}
 \examples{
-  if(require(spatstat)) {
+  if(require(spatstat.geom)) {
 plot(paracou, cols=2:3, chars=c(16,3))
   }
 }
