@@ -1,0 +1,21 @@
+
+        CHANGES IN spatstat.data VERSION 2.1-1
+
+OVERVIEW
+
+    o Added a NEWS file for spatstat.data
+
+
+        CHANGES IN spatstat.data VERSION 2.1-0
+
+OVERVIEW
+
+    o We thank Tilman Davies and Peter Diggle for contributions.
+
+    o New dataset 'btb'
+
+NEW DATASETS
+
+    o btb
+    Bovine tuberculosis data, from Prof Peter Diggle.
+
