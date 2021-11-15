@@ -222,7 +222,7 @@ associate with sources of ignition \code{cigs}, \code{burn.w.perm},
 Turner, Rolf.
 Point patterns of forest fire locations.
 \emph{Environmental and Ecological Statistics}
-\bold{16} (2009) 197 -- 223, doi:10.1007/s10651-007-0085-1.
+\bold{16} (2009) 197 -- 223, \code{DOI:10.1007/s10651-007-0085-1}.
 
 Thomson, D. B., Mephan, M. P., and Steeves, R. R. (1977)
 The stereographic double projection.
