@@ -5,7 +5,8 @@
   Japanese Pines Point Pattern
 }
 \description{
-  The data give the locations of Japanese black pine saplings
+  The data give the locations of saplings of
+  Japanese black pine (\emph{Pinus thunbergii})
   in a square sampling region in a natural forest.
   The observations were originally collected by Numata (1961).
 
@@ -14,7 +15,7 @@
 } 
 \format{
   An object of class \code{"ppp"}
-  representing the point pattern of tree locations
+  representing the point pattern of 65 tree sapling locations
   in a 5.7 x 5.7 metre square, rescaled to the unit square
   and rounded to two decimal places.
 

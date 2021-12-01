@@ -7,7 +7,9 @@
 }
 \description{
   These data represent the locations of 195 seedlings and saplings 
-  of California redwood trees in a square sampling region.  
+  of California Giant Redwood (\emph{Sequoiadendron giganteum})
+  in a square sampling region.
+  
   They were described and analysed by Strauss (1975).
   This is the ``\bold{full}'' dataset; most writers have
   analysed a subset extracted by Ripley (1977)

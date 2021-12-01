@@ -6,11 +6,9 @@
   California Redwoods Point Pattern (Ripley's Subset)
 }
 \description{
-  Locations of 62 seedlings and saplings 
-  of California redwood trees.
- 
   The data represent the locations of 62 seedlings and saplings 
-  of California redwood trees in a square sampling region.  
+  of California Giant Redwood (\emph{Sequoiadendron giganteum})
+  recorded in a square sampling region.  
   They originate from Strauss (1975);
   the present data are a subset extracted by Ripley (1977) 
   in a subregion that has been rescaled to a unit square.
