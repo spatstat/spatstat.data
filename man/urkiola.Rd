@@ -16,8 +16,8 @@
   An object of class \code{"ppp"} representing the point pattern of
   tree locations. Entries include
   \describe{
-    \item{x}{Cartesian x-coordinate of tree}
-    \item{y}{Cartesian y-coordinate of tree }
+    \item{x}{Cartesian x-coordinate of tree in metres}
+    \item{y}{Cartesian y-coordinate of tree in metres}
     \item{marks}{factor indicating species of each tree}
   }
   The levels of \code{marks} are \code{birch} and \code{oak}.

@@ -47,6 +47,7 @@
       southern half of the study region. An object of class \code{"psp"}.
     }
   }
+  All spatial coordinates are expressed in kilometres.
 }
 \usage{data(copper)}
 \examples{

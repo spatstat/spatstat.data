@@ -13,7 +13,7 @@
 \usage{data("concrete")}
 \format{
   An object of class \code{"ppp"} representing the point pattern
-  of air bubble centroid locations.
+  of air bubble centroid locations. Spatial coordinates are expressed in microns.
 }
 \details{
   The window of the point pattern is a binary mask

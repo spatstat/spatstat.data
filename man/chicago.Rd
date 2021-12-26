@@ -26,6 +26,8 @@
   All crimes occurred on or near a street. The data give the
   coordinates of all streets in the survey area, and their connectivity.
 
+  Spatial coordinates are expressed in feet (one foot is 0.3048 metres).
+
   The dataset \code{chicago} is an object of class \code{"lpp"}
   representing a point pattern on a linear network.
   See \code{\link[spatstat.linnet]{lpp}} for further information on the format.

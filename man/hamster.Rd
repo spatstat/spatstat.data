@@ -20,6 +20,14 @@
   See \code{\link[spatstat.geom]{ppp.object}} for details of the format.
 }
 \usage{data(hamster)}
+\examples{
+  if(require(spatstat.geom)) {
+  hamster
+  ## rescale to microns
+  (Ham <- rescale(hamster))
+  }
+}
+
 \source{Dr W. A. Aherne, Department of Pathology, University of
   Newcastle-upon-Tyne, UK. Data supplied by Prof. Peter Diggle}
 \section{Notes}{

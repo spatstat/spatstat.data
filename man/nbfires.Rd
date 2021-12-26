@@ -255,6 +255,8 @@ plot(nbw.rect,add=TRUE,border="blue")
 # Look at the K function for the year 2000 forest and grass fires.
 K.00 <- Kest(Y.00)
 plot(K.00)
+# Rescale to kilometres
+NBF <- rescale(nbfires)
    }
 }
 }

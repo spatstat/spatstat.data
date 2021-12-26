@@ -13,7 +13,7 @@
   representing the point pattern of tree locations
   in a rectangular plot 9.6 by 10 metres.
 
-  Cartesian coordinates are given in decimetres (multiples of 0.1 metre)
+  Cartesian coordinates are given in \emph{decimetres} (multiples of 0.1 metre)
   rounded to the nearest decimetre.
   Type \code{\link[spatstat.geom]{rescale}(swedishpines)} to get an equivalent dataset
   where the coordinates are expressed in metres.
@@ -27,6 +27,14 @@
   For previous analyses see Ripley (1981, pp. 172-175),
   Venables and Ripley (1997, p. 483),
   Baddeley and Turner (2000).
+}
+\examples{
+  if(require(spatstat.geom)) {
+     swedishpines
+
+     ## rescale to metres
+     rescale(swedishpines)
+  }
 }
 \references{
   Baddeley, A. and Turner, R. (2000)

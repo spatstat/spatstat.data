@@ -22,6 +22,8 @@
 \format{
   Object of class \code{"lpp"}. 
   See \code{\link[spatstat.linnet]{lpp}}.
+
+  Spatial coordinates are expressed in microns.
 }
 \source{
   Kosik Lab, UC Santa Barbara (Dr Kenneth Kosik, Dr Sourav Banerjee).

@@ -18,6 +18,8 @@
       (objects of class \code{"ppp"})
       with points of two types, identifying the locations of 
       two different proteins on a membrane sheet.
+      Coordinates are expressed in nanometres (\emph{nm}) and the 
+      window of observation is a square of side length 3331 \emph{nm}.
     }
     \item{virustype}{
       Factor identifying whether the infecting virus was
@@ -96,7 +98,6 @@
   \emph{Cell} \bold{142}, 902--913.
 }
 \examples{
-data(flu)
   if(require(spatstat.geom)) {
 flu
 Y <- flu$pattern[10]

@@ -37,7 +37,11 @@
   pp. 2, 169).
 
   The associated object \code{mucosa.subwin} is the smaller window
-  to which the data were restricted for analysis by \Moller and Waagepetersen.
+  to which the data were restricted for analysis by \Moller and
+  Waagepetersen.
+
+  The scale of spatial coordinates is unknown (R. Waagepetersen,
+  personal communication).
 }
 \source{
   Dr Thomas Berntsen and Prof Rasmus Waagepetersen.

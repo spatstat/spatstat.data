@@ -16,7 +16,8 @@
     \code{fine} \tab   finest resolution data, 778 by 1570 pixels
   }
   Each of these entries is an object of class \code{"owin"}
-  containing a binary pixel mask. 
+  containing a binary pixel mask. All spatial coordinates are
+  given in metres.
 }
 \usage{data(heather)}
 \source{Peter Diggle}

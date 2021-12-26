@@ -11,7 +11,7 @@
 \usage{data("spiders")}
 \format{
   Object of class \code{"lpp"} representing a pattern of points
-  on a linear network.
+  on a linear network. Spatial coordinates are expressed in millimetres.
 }
 \details{
 The data give the positions of 48 webs 

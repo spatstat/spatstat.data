@@ -23,8 +23,15 @@
   point pattern object.
 }
 \usage{data(japanesepines)}
+\examples{
+  if(require(spatstat.geom)) {
+   japanesepines
+   summary(japanesepines)
+   ## rescale to metres
+   (Jpines <- rescale(japanesepines))
+  }
+}
 \source{Diggle (2003), obtained from Numata (1961)}
-
 \references{
   Diggle, P.J. (2003)
   \emph{Statistical Analysis of Spatial Point Patterns}.

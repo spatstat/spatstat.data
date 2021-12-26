@@ -12,6 +12,7 @@
   They originate from Strauss (1975);
   the present data are a subset extracted by Ripley (1977) 
   in a subregion that has been rescaled to a unit square.
+  (The original physical size of the unit is approximately 63.1 feet).
 
   Two versions of this dataset are provided: \code{redwood}
   and \code{redwood3}.

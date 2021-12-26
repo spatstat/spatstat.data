@@ -34,6 +34,7 @@
   (object of class \code{"ppp"})
   representing the point pattern of tree positions.
   See \code{\link[spatstat.geom]{ppp.object}} for details of the format.
+  Spatial coordinates are given in metres.
 
   The dataset \code{ponderosa.extra} is a list containing supplementary
   data. The entry \code{id} contains the index numbers of the

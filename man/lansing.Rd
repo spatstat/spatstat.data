@@ -48,6 +48,8 @@
      summary(lansing)
      plot(split(lansing))
      plot(split(lansing)$maple)
+     ##  rescale to feet
+     (Lan <- rescale(lansing))
   }
 }
 \references{

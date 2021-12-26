@@ -40,6 +40,8 @@
   containing two pixel images, \code{elev} (elevation in metres) and
   \code{grad} (norm of elevation gradient).
 
+  All spatial coordinates are given in metres.
+
   These data are part of a much larger dataset containing the positions of
   hundreds of thousands of trees belong to thousands of species;
   see Hubbell and Foster (1983), Condit, Hubbell and Foster (1996)

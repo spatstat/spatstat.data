@@ -23,6 +23,8 @@
   }
   See \code{\link[spatstat.geom]{ppp.object}} for details of the format.
 
+  Spatial coordinates are expressed as multiples of 100 metres.
+
   The dataset \code{humberside.convex} is an object of the
   same format, representing the same point pattern data,
   but contained in a larger, 5-sided convex polygon.
@@ -34,6 +36,10 @@
    summary(humberside)
    plot(humberside)
    plot(Window(humberside.convex), add=TRUE, lty=2)
+   ## convert to metres
+   (Hum <- rescale(humberside))
+   ## convert to kilometres
+   (HumK <- rescale(humberside, 10, "km"))
   }
 }
 \source{

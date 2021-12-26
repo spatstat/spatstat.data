@@ -18,6 +18,13 @@
   See \code{\link[spatstat.geom]{ppp.object}} for details of the format.
 }
 \usage{data(bramblecanes)}
+\examples{
+  if(require(spatstat.geom)) {
+   bramblecanes
+   # convert coordinates to metres
+   (Bram <- rescale(bramblecanes))
+   }
+}
 \source{Hutchings (1979), data published in Diggle (1983)}
 \section{Notes}{
 These data record the \eqn{(x,y)} locations and ages of bramble canes in a 

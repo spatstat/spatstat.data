@@ -26,8 +26,8 @@
   representing the point pattern of tree locations.
   Entries include
   \tabular{ll}{
-    \code{x} \tab Cartesian \eqn{x}-coordinate of tree \cr
-    \code{y} \tab Cartesian \eqn{y}-coordinate of tree \cr
+    \code{x} \tab Cartesian \eqn{x}-coordinate of tree in metres\cr
+    \code{y} \tab Cartesian \eqn{y}-coordinate of tree in metres\cr
     \code{marks} \tab diameter at breast height, in centimetres.
   }
   See \code{\link[spatstat.geom]{ppp.object}} for details of the format of a
