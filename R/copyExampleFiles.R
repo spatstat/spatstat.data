@@ -1,6 +1,6 @@
 ##  copyExampleFiles.R
 ##   Now belongs to spatstat.data
-##  $Revision: 1.10 $ $Date: 2015/03/11 05:58:50 $
+##  $Revision: 1.11 $ $Date: 2022/01/04 05:30:06 $
 
 copyExampleFiles <- function(which, folder=getwd()) {
   choices <- dir(system.file("rawdata", package="spatstat.data"))
