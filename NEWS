@@ -1,4 +1,17 @@
 
+        CHANGES IN spatstat.data VERSION 2.1-4.001
+
+OVERVIEW
+
+    o We thank Lucia Cobo-Sanchez for contributions.
+    
+    o New dataset 'stonetools'.
+
+NEW DATASETS
+
+    o stonetools
+    Palaeolithic stone tools
+
         CHANGES IN spatstat.data VERSION 2.1-4
 
 OVERVIEW
