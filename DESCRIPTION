@@ -1,6 +1,6 @@
 Package: spatstat.data
-Version: 2.1-4.002
-Date: 2022-04-14
+Version: 2.2-0.001
+Date: 2022-04-18
 Title: Datasets for 'spatstat' Family
 Authors@R: c(person("Adrian", "Baddeley", 
                     role = c("aut", "cre"),
@@ -24,6 +24,7 @@ Authors@R: c(person("Adrian", "Baddeley",
             person("Andrew", "Bevan", role="ctb"),
             person("Jeffrey", "Betts", role="ctb"),
             person("Ray", "Cartwright", role="ctb"),
+            person("Lucia", "Cobo Sanchez", role="ctb"),
             person("Richard", "Condit", role="ctb"),
             person("Francis", "Crick", role="ctb"),
             person("Marcelino", "de la Cruz Rot", role="ctb"),
