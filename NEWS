@@ -1,9 +1,10 @@
 
-        CHANGES IN spatstat.data VERSION 2.2-0.002
+        CHANGES IN spatstat.data VERSION 2.2-0.003
 
 OVERVIEW
 
-    o Minor change to package information.
+    o spatstat.data now suggests the new packages 'spatstat.explore'
+    and 'spatstat.model' rather than the old 'spatstat.core'.
 
         CHANGES IN spatstat.data VERSION 2.2-0
 

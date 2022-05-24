@@ -60,7 +60,7 @@
 if(FALSE) {
   data(residualspaper)
   
-  if(require(spatstat.core)) {
+  if(require(spatstat.model)) {
 
   X <- residualspaper$Fig4a
   summary(X)

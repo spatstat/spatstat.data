@@ -83,7 +83,7 @@
 }
 
 \examples{
-  if(require(spatstat.core)) {
+  if(require(spatstat.model)) {
      cet <- cetaceans
      cet$dMplank <- with(cet, distfun(plankton, undef=20))
      cet$dMfish <- with(cet, distfun(fish, undef=20))

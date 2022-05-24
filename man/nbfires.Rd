@@ -233,7 +233,7 @@ URL: \code{gge.unb.ca/Pubs/Pubs.html}.
 
 \examples{
 if(interactive()) {
-  if(require(spatstat.core)) {
+  if(require(spatstat.geom)) {
 # Get the year 2000 data.
 X <- split(nbfires,"year")
 Y.00 <- X[["2000"]]
@@ -252,12 +252,14 @@ plot(nbw.mask, col=c("green", "white"))
 plot(Window(nbfires), border="red", add=TRUE)
 plot(Y.00[nbw.rect],use.marks=FALSE,add=TRUE)
 plot(nbw.rect,add=TRUE,border="blue")
-# Look at the K function for the year 2000 forest and grass fires.
-K.00 <- Kest(Y.00)
-plot(K.00)
+  if(require(spatstat.explore)) {
+    # Look at the K function for the year 2000 forest and grass fires.
+    K.00 <- Kest(Y.00)
+    plot(K.00)
+   }
 # Rescale to kilometres
 NBF <- rescale(nbfires)
-   }
+  }
 }
 }
 \keyword{datasets}

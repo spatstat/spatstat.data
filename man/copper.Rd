@@ -54,7 +54,7 @@
 
   data(copper)
 
-  if(require(spatstat.core)) {
+  if(require(spatstat.model)) {
 
   # Plot full dataset
 
