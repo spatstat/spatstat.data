@@ -31,9 +31,7 @@ copyExampleFiles(which, folder = getwd())
   Baddeley, Rubak and Turner (2015).
 }
 \references{
-  Baddeley, A., Rubak, E. and Turner, R. (2015)
-  \emph{Spatial Point Patterns: Methodology and Applications with R}.
-  Chapman and Hall/CRC Press.
+  \baddrubaturnbook
 }
 \author{
   \spatstatAuthors.

@@ -85,9 +85,7 @@
   International Association for Mathematical Geosciences.
   Chapter 2, pages 25--65.
 
-  Baddeley, A., Rubak, E. and Turner, R. (2015)
-  \emph{Spatial Point Patterns: Methodology and Applications with R}.
-  Chapman and Hall/CRC Press.
+  \baddrubaturnbook
   
   Brown, W.M., Gedeon, T.D., Baddeley, A.J. and Groves, D.I. (2002)
   Bivariate J-function and other graphical

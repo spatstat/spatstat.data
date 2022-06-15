@@ -29,8 +29,7 @@
 \usage{data(betacells)}
 \source{
   W\"assle et al (1981), Figure 6(a),
-  scanned and processed by Stephen Eglen
-  \email{S.J.Eglen@damtp.cam.ac.uk}
+  scanned and processed by \stephenEglen.
 }
 \section{Notes}{
   This is a new, corrected version of the old dataset
