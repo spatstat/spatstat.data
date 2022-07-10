@@ -66,7 +66,7 @@
   plot(murchison$faults, add=TRUE, col="red")
   }
   ## rescale to kilometres
-  Mur <- solapply(murchison, rescale, unitname="km")
+  Mur <- solapply(murchison, rescale, s=1000, unitname="km")
   }
 }
 \source{
