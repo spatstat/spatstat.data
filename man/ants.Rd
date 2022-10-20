@@ -9,7 +9,7 @@
   These data give the spatial locations of nests of two species of
   ants, \emph{Messor wasmanni} and \emph{Cataglyphis bicolor},
   recorded by Professor R.D. Harkness at a site in northern Greece,
-  and described in Harkness \& Isham (1983). 
+  and described in Harkness & Isham (1983). 
   The full dataset (supplied here) has an irregular polygonal boundary,
   while most analyses have been confined to two rectangular
   subsets of the pattern (also supplied here).
@@ -23,7 +23,7 @@
   preferential placement of \emph{Cataglyphis} nests in the vicinity of
   \emph{Messor} nests.   
 
-  The full dataset is displayed in Figure 1 of Harkness \& Isham (1983).
+  The full dataset is displayed in Figure 1 of Harkness & Isham (1983).
   See \bold{Usage} below to produce a comparable plot.
   It comprises 97 nests (68 Messor and 29 Cataglyphis)
   inside an irregular convex polygonal boundary, together with
@@ -33,11 +33,11 @@
   A and B used in their analysis.
   
   Rectangular subsets of the data were analysed by
-  Harkness \& Isham (1983), Isham (1984), Takacs \& Fiksel
+  Harkness & Isham (1983), Isham (1984), Takacs & Fiksel
   (1986),  S\"arkk\"a (1993, section 5.3),
-  H\"ogmander and S\"arkk\"a (1999) and Baddeley \& Turner (2000).
+  H\"ogmander and S\"arkk\"a (1999) and Baddeley & Turner (2000).
   The full dataset (inside its irregular boundary) was first analysed 
-  by Baddeley \& Turner (2005b).
+  by Baddeley & Turner (2005b).
   
   The dataset \code{ants} is the full point pattern
   enclosed by the irregular polygonal boundary.
@@ -52,7 +52,7 @@
   \describe{
     \item{\code{A} and \code{B}}{The subsets
       of the pattern within the rectangles A and B
-      demarcated in Figure 1 of Harkness \& Isham (1983).
+      demarcated in Figure 1 of Harkness & Isham (1983).
       These are multitype point pattern objects.
     }
     \item{\code{trackNE} and \code{trackSW}}{
@@ -121,7 +121,7 @@
 \source{Harkness and Isham (1983).
   Nest coordinates kindly provided by Prof Valerie Isham.
   Polygon coordinates digitised by Adrian Baddeley from
-  a reprint of Harkness \& Isham (1983).
+  a reprint of Harkness & Isham (1983).
 }
 \references{
 Baddeley, A. and Turner, R. (2000)
