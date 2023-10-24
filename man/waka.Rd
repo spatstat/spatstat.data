@@ -30,8 +30,9 @@ title(sub="Tree diameters 4x scale")
   Nicolas Picard
 }
 \references{
-  Balinga, M., Sunderland, T., Walters, G., Issemb{\'e}, Y., Asaha, S. 
-  and Fombod, E. (2006)
+  Balinga, M., Sunderland, T., Walters, G.,
+  \ifelse{latex}{\out{Issemb\'e}}{Issembe'}, Y.,
+  Asaha, S. and Fombod, E. (2006)
   \emph{A vegetation assessment of the Waka national park, Gabon.}
   Herbier National du Gabon, LBG, MBG, WCS, FRP and
   Simthsonian Institution, Libreville, Gabon. CARPE Report, 154 pp.
