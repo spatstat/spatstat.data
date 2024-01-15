@@ -1,4 +1,17 @@
 
+        CHANGES IN spatstat.data VERSION 3.0-4
+
+OVERVIEW
+
+    o Corrected format of 'gorillas' dataset.
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o gorillas
+    The mark variables 'group' and 'season' are now factors
+    (categorical variables) as stated in the help file,
+    rather than character vectors.
+
         CHANGES IN spatstat.data VERSION 3.0-3
 
 OVERVIEW
