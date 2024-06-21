@@ -105,7 +105,7 @@
 
   Geological Survey of Western Australia (n.d.)
   MINEDEX database of Mines and Mineral Deposits.
-  \url{http://dmp.wa.gov.au/Mines-and-mineral-deposits-1502.aspx}.
+  \url{https://dmp.wa.gov.au/Mines-and-mineral-deposits-1502.aspx}.
   
   Groves, D.I., Goldfarb, R.J., Knox-Robinson, C.M., Ojala, J., Gardoll,
   S, Yun, G.Y. and Holyland, P. (2000)
