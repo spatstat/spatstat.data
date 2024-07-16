@@ -1,6 +1,6 @@
 # spatstat.data
 
-[![CRAN status](http://www.r-pkg.org/badges/version/spatstat.data)](http://CRAN.R-project.org/package=spatstat.data)
+[![CRAN status](https://www.r-pkg.org/badges/version/spatstat.data)](http://CRAN.R-project.org/package=spatstat.data)
 [![GitHub R package version](https://img.shields.io/github/r-package/v/spatstat/spatstat.data)](https://github.com/spatstat/spatstat.data)
 
 The original
