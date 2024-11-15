@@ -1,4 +1,18 @@
 
+        CHANGES IN spatstat.data VERSION 3.1-3
+
+OVERVIEW
+
+    o We thank Tilman Davies for contributions.
+    
+    o New dataset 'shelling'.
+
+NEW DATASETS
+
+    o shelling
+    Spatial patterns of artillery shell impacts in Ukraine.
+    [Provided by Tilman Davies.]
+
         CHANGES IN spatstat.data VERSION 3.1-2
 
 OVERVIEW

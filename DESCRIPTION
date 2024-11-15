@@ -1,6 +1,6 @@
 Package: spatstat.data
-Version: 3.1-2
-Date: 2024-06-21
+Version: 3.1-3
+Date: 2024-11-15
 Title: Datasets for 'spatstat' Family
 Authors@R: c(person("Adrian", "Baddeley", 
                     role = c("aut", "cre"),
