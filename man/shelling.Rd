@@ -51,7 +51,7 @@
 \references{
   Google Earth Pro (2022). Satellite imagery of Soledar taken on 19 June 2022.
   Google Earth Pro 7.3.6, Maxar Technologies, Airbus.
-  \url{http://earth.google.com/web}.
+  \url{https://earth.google.com/web}.
 }
 \examples{
 if(require(spatstat.geom)) {

@@ -1,5 +1,5 @@
 
-        CHANGES IN spatstat.data VERSION 3.1-3
+        CHANGES IN spatstat.data VERSION 3.1-4
 
 OVERVIEW
 
@@ -12,6 +12,12 @@ NEW DATASETS
     o shelling
     Spatial patterns of artillery shell impacts in Ukraine.
     [Provided by Tilman Davies.]
+
+        CHANGES IN spatstat.data VERSION 3.1-3
+
+OVERVIEW
+
+    o Internal version only
 
         CHANGES IN spatstat.data VERSION 3.1-2
 
