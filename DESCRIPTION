@@ -1,6 +1,6 @@
 Package: spatstat.data
-Version: 3.1-4
-Date: 2024-11-15
+Version: 3.1-4.001
+Date: 2025-03-15
 Title: Datasets for 'spatstat' Family
 Authors@R: c(person("Adrian", "Baddeley", 
                     role = c("aut", "cre"),
@@ -96,7 +96,7 @@ Authors@R: c(person("Adrian", "Baddeley",
 		    )
 Maintainer: Adrian Baddeley <Adrian.Baddeley@curtin.edu.au>
 Depends: R (>= 3.5.0)
-Imports: spatstat.utils (>= 3.0-5), Matrix
+Imports: spatstat.utils (>= 3.1-2), Matrix
 Suggests: spatstat.geom, spatstat.random, spatstat.explore, spatstat.model, spatstat.linnet
 Description: Contains all the datasets for the 'spatstat' family of packages.
 License: GPL (>= 2)

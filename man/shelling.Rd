@@ -44,6 +44,8 @@
   Spatial coordinates in the datasets are given in
   metres, relative to an origin at the southwest corner
   of the containing rectangle.
+
+  The data were first analysed by \smoothpcfpapercite.
 }
 \source{
   Google Earth and \tilman.
@@ -52,6 +54,8 @@
   Google Earth Pro (2022). Satellite imagery of Soledar taken on 19 June 2022.
   Google Earth Pro 7.3.6, Maxar Technologies, Airbus.
   \url{https://earth.google.com/web}.
+
+  \smoothpcfpaper
 }
 \examples{
 if(require(spatstat.geom)) {

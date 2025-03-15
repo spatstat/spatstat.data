@@ -11,7 +11,7 @@
 } 
 \format{
   An object of class \code{"ppp"}
-  representing the point pattern of tree locations
+  representing the point pattern of 134 tree locations
   in a 56 x 38 metre sampling region. Each tree is marked
   with its diameter at breast height. All values are given in metres.
 
