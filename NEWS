@@ -1,10 +1,17 @@
 
-        CHANGES IN spatstat.data VERSION 3.1-4.001
+        CHANGES IN spatstat.data VERSION 3.1-4.002
 
 OVERVIEW
 
-    o Update to documentation.
+    o New dataset 'meningitis'.
     
+    o Updates to documentation.
+    
+NEW DATASETS
+
+    o meningitis
+    Spatial locations of cases of meningitis in Germany.
+    [Extracted from the 'surveillance' package, converted and simplified]
 
         CHANGES IN spatstat.data VERSION 3.1-4
 
