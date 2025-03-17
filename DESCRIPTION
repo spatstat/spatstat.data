@@ -1,6 +1,6 @@
 Package: spatstat.data
-Version: 3.1-4.002
-Date: 2025-03-16
+Version: 3.1-5
+Date: 2025-03-17
 Title: Datasets for 'spatstat' Family
 Authors@R: c(person("Adrian", "Baddeley", 
                     role = c("aut", "cre"),
@@ -34,6 +34,7 @@ Authors@R: c(person("Adrian", "Baddeley",
             person("Michael", "Drinkwater", role="ctb"),
             person("Stephen", "Eglen", role="ctb"),
             person("Robert", "Edwards", role="ctb"),
+            person("Johannes", "Elias", role="ctb"),
             person("AE", "Esler", role="ctb"),
             person("Gregory", "Evans", role="ctb"),
             person("Bernard", "Fingleton", role="ctb"),
@@ -67,6 +68,7 @@ Authors@R: c(person("Adrian", "Baddeley",
             person("George", "Leser", role="ctb"),
             person("Marie-Colette", "van Lieshout", role="ctb"),
             person("AF", "Mark", role="ctb"),
+            person("Sebastian", "Meyer", role="ctb"),
             person("Jorge", "Mateu", role="ctb"),
             person("Annikki", "Makela", role="ctb"),
             person("Enrique", "Miranda", role="ctb"),
@@ -89,6 +91,7 @@ Authors@R: c(person("Adrian", "Baddeley",
             person("Masaharu", "Tanemura", role="ctb"),
             person("Graham", "Upton", role="ctb"),
             person("Bill", "Venables", role="ctb"),
+            person("Ulrich", "Vogel", role="ctb"),
             person("Sasha", "Voss", role="ctb"),
             person("Rasmus", "Waagepetersen", role="ctb"),
             person("Keith", "Watkins", role="ctb"),

@@ -1,8 +1,11 @@
 
-        CHANGES IN spatstat.data VERSION 3.1-4.002
+        CHANGES IN spatstat.data VERSION 3.1-5
 
 OVERVIEW
 
+    o We thank Dr Sebastian Meyer, Dr Johannes Elias and Prof Dr Ulrich Vogel
+    for contributions.
+    
     o New dataset 'meningitis'.
     
     o Updates to documentation.
