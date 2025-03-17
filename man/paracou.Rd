@@ -30,7 +30,7 @@ plot(paracou, cols=2:3, chars=c(16,3))
 \source{
   Data kindly contributed by Olivier Flores.
   All data belong to CIRAD \url{https://www.cirad.fr}
-  and UMR EcoFoG \url{http://www.ecofog.gf} and
+  and UMR EcoFoG and
   are included in \pkg{spatstat} with permission.
   Original data sources:
   juvenile and some adult trees collected by Flores (2005);
