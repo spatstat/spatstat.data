@@ -1,4 +1,15 @@
 
+        CHANGES IN spatstat.data VERSION 3.1-6.002
+
+OVERVIEW
+
+    o Repaired internal format of hyperframes
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o cetaceans, demohyper, flu, Kovesi, osteo, pyramidal, simba
+    The internal format of hyperframes has been corrected slightly.
+
         CHANGES IN spatstat.data VERSION 3.1-6
 
 OVERVIEW
