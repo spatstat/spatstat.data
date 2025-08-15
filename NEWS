@@ -1,9 +1,9 @@
 
-        CHANGES IN spatstat.data VERSION 3.1-6.002
+        CHANGES IN spatstat.data VERSION 3.1-7
 
 OVERVIEW
 
-    o Repaired internal format of hyperframes
+    o Repaired internal format of hyperframes.
 
 SIGNIFICANT USER-VISIBLE CHANGES
 
