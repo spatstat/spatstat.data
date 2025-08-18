@@ -11,7 +11,7 @@
   Murchison area by the Geological Survey of Western Australia
   (Watkins and Hickman, 1990). The features recorded are
   \itemize{
-    \item the locations of gold deposits;
+    \item the locations of gold deposits/occurrences;
     \item the locations of geological faults;
     \item the region that contains greenstone bedrock.
   }
@@ -25,8 +25,9 @@
   from information observed in the greenstone region.
 
   Deposit locations were extracted from the Minedex database
-  (Geological Survey of Western Australia, n.d.) and include deposits of
-  all sizes. The fault geometry and greenstone boundaries
+  (Geological Survey of Western Australia, n.d.) and include gold deposits
+  and gold occurrences of all sizes.
+  The fault geometry and greenstone boundaries
   were mapped and collated by Watkins and Hickman (1990).
 
   These data were analysed by Foxall and Baddeley (2002) and Brown et al
@@ -50,6 +51,7 @@
     \item{greenstone}{the greenstone bedrock region.
       An object of class \code{"owin"}. Consists of multiple
       irregular polygons with holes.
+      See \code{\link[spatstat.geom]{owin.object}} for details of the format.      
     }
   }
   All coordinates are given in \bold{metres}.
@@ -105,7 +107,7 @@
 
   Geological Survey of Western Australia (n.d.)
   MINEDEX database of Mines and Mineral Deposits.
-  \url{https://www.dmp.wa.gov.au/Mines-and-mineral-deposits-1502.aspx}.
+  \url{https://www.wa.gov.au/service/natural-resources/mineral-resources/access-mines-and-mineral-deposits-minedex}
   
   Groves, D.I., Goldfarb, R.J., Knox-Robinson, C.M., Ojala, J., Gardoll,
   S, Yun, G.Y. and Holyland, P. (2000)
@@ -124,8 +126,8 @@
     Western Australia}.
   Bulletin 137, Geological Survey of Western Australia. 267 pages.
   Published by Department of Mines, Western Australia, 1990.
-  Available online from Department of Industry and Resources,
-  State Government of Western Australia, \code{www.doir.wa.gov.au}
+  Available online from 
+  \url{https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/geological-survey-of-western-australia/dmpe-ebookshop}
 }
 \keyword{datasets}
 \keyword{spatial}
