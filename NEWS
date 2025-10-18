@@ -11,7 +11,8 @@ SIGNIFICANT USER-VISIBLE CHANGES
     The name of the unit of length has been corrected.
     
     o shelling
-    The name of the unit of length in 'shelling' and 'shelling2' has been corrected.
+    The name of the unit of length in 'shelling' and 'shelling2'
+    has been corrected.
     
 
         CHANGES IN spatstat.data VERSION 3.1-8
